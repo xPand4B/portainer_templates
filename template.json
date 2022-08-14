@@ -8754,6 +8754,23 @@
         },
         {
             "categories": [
+                "search-engine"
+            ],
+            "description": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.",
+            "image": "searxng/searxng",
+            "logo": "https://raw.githubusercontent.com/searxng/searxng/master/src/brand/searxng.svg",
+            "platform": "linux",
+            "ports": [
+                "8080/tcp"
+            ],
+            "title": "SearXNG",
+            "type": 1,
+            "volumes": [{
+                "container": "/etc/searxng"
+            }]
+        },
+        {
+            "categories": [
                 "database"
             ],
             "description": "Microsoft SQL Server on Linux",
